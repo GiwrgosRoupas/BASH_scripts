@@ -1,3 +1,6 @@
+#Percentage of $HOME compared to root (used)
+
+
 #!/bin/bash
 
 	root=$(df -BM / 2>/dev/null | awk 'FNR==2 {print substr($3, 1, length($3)-1)}')
