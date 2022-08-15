@@ -1,3 +1,5 @@
+#finds all files bigger than the size provided and prompts for removal
+
 #!/bin/bash
 
 if (($# != 2))
