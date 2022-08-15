@@ -1,3 +1,5 @@
+#menu
+
 #!/bin/bash
 
 while true 
